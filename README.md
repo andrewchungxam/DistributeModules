@@ -88,8 +88,77 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
 This is the **ideal solution** and what we should strive for.
 :::
 
-**[Decouple Dependencies ->][10]**
-[_(edit)_][11]
+However will reqiure decoupling dependencies
+## Intro
+
+:::info
+Most of what we've been doing is in Shared projects which allows us to worry less about dependencies.
+If NuGet is the ideal way to modularize/distribute, we're going to have to start worrying.
+:::
+
+
+## Why?
+
+- _Always_ dependency on Xamarin.iOS / Xamarin.Android for platform-specific code
+- To package into NuGet, must produce a DLL, can't use Shared Projects
+- The only way some libraries can be modularized, is if we can separate dependencies (platform specific)
+
+
+## Inversion of Control (IoC)
+IoC is probably the most common approach in achieving this
+
+## Design Patterns (to achieve IoC)
+
+:::info
+We won't go into any of these in depth, but let's quickly review design patterns that can be used to achieve IoC
+:::
+
+### Dependency Injection
+
+- Define an **interface or abstract** class
+- Supply the implementation at runtime
+- Constructor injection
+- Property injection
+
+
+### Factory pattern (static delegate initializers)
+- SQLite.Net platform init (e.g.)
+
+
+### Service location
+- Forms dependency service
+- Some consider this an anti-pattern...and fight!
+    - http://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/ - Mark Seemann
+
+
+### DI with IoC Container (usually with a built-in service locator)
+- TinyIoC, Ninject, Autofac, etc.
+- Pros and Cons
+
+- Increased testability (unit tests)
+- Mock test data!
+	
+Factory pattern and service location have their place, e.g. something like a plugin/singleton
+...
+
+## Bait-and-switch (advanced PCLs) 
+
+
+- **EXAMPLE**: Possibly a bait and switch example
+    - Version tracking?
+    - Tie in to `AudioRecorderService` if possible
+- Motz's Plugin template (now integrated into XS/VS.Mac!)
+- "Nugetizer 3000" now in XS
+    - Define NuGet package properties via project settings
+
+:::info
+**Bait & Switch** in conjunction with **bindings** will allow you to do this with _native_ (indigenous) libraries
+
+- _(often requires some extra work to unify the APIs)_
+
+- You consume these all the time with Xamarin Components/packages!
+
+###### tags: `Partner Summit` `Presenters Notes`
 
 
 
