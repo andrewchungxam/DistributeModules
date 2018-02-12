@@ -63,10 +63,6 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
 > - Updating is problematic 
 > - Versioning issues
 
-:::danger
-Still with me?
-:::
-
 
 ## Distribution Approach: NuGet
 
@@ -74,9 +70,7 @@ Still with me?
     - MyGet (private NuGet service)
     - Internal NuGet server(s) (TeamCity, etc.)
 
-:::success
 **QUESTION**: Anyone doing this now?
-:::
 
 > **Pros:** [color=green]
 > - Auto Dependency management
@@ -94,10 +88,8 @@ Still with me?
 This is the **ideal solution** and what we should strive for.
 :::
 
-:::danger
 **[Decouple Dependencies ->][10]**
 [_(edit)_][11]
-:::
 
 
 
