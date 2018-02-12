@@ -1,4 +1,4 @@
-Notes from talk by @colbylwilliams and Nate Williams reposted here:
+Notes from talk by @colbylwilliams and Nate Rickard reposted here:
 
 # Distribute Modules
 
