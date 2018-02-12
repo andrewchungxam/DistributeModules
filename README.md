@@ -63,6 +63,9 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
 > - Updating is problematic 
 > - Versioning issues
 
+https://www.benday.com/2016/11/04/one-tfs-build-multiple-git-repositories-with-submodules/
+https://stackoverflow.com/questions/47618465/git-submodules-in-vsts-online
+
 
 ## Distribution Approach: NuGet
 
@@ -70,7 +73,6 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
     - MyGet (private NuGet service)
     - Internal NuGet server(s) (TeamCity, etc.)
 
-**QUESTION**: Anyone doing this now?
 
 > **Pros:** [color=green]
 > - Auto Dependency management
@@ -87,6 +89,9 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
 :::info
 This is the **ideal solution** and what we should strive for.
 :::
+
+Helpful links:
+https://docs.microsoft.com/en-us/vsts/package/get-started-nuget
 
 However will reqiure decoupling dependencies
 ## Intro
