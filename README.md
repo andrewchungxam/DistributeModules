@@ -35,7 +35,7 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
 > - Get latest (out of sync)
 > - Relative paths
 
-
+https://stackoverflow.com/questions/35979642/how-to-checkout-remote-git-tag/35979751
 
 ## Distribution Approach: Commit DLLs to source control
 
