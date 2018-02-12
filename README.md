@@ -35,6 +35,7 @@ Notes from talk by @colbylwilliams and Nate Williams reposted here:
 > - Get latest (out of sync)
 > - Relative paths
 
+Helpful link:
 https://stackoverflow.com/questions/35979642/how-to-checkout-remote-git-tag/35979751
 
 ## Distribution Approach: Commit DLLs to source control
@@ -63,6 +64,7 @@ https://stackoverflow.com/questions/35979642/how-to-checkout-remote-git-tag/3597
 > - Updating is problematic 
 > - Versioning issues
 
+Helpful links:
 https://www.benday.com/2016/11/04/one-tfs-build-multiple-git-repositories-with-submodules/
 https://stackoverflow.com/questions/47618465/git-submodules-in-vsts-online
 
@@ -94,7 +96,7 @@ Helpful links:
 https://docs.microsoft.com/en-us/vsts/package/get-started-nuget
 
 However will reqiure decoupling dependencies
-## Intro
+## Intro To Decoupling Dependencies
 
 :::info
 Most of what we've been doing is in Shared projects which allows us to worry less about dependencies.
