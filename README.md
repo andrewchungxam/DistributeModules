@@ -161,10 +161,7 @@ Factory pattern and service location have their place, e.g. something like a plu
 
 - _(often requires some extra work to unify the APIs)_
 
-- You consume these all the time with Xamarin Components/packages!
-
-###### tags: `Partner Summit` `Presenters Notes`
-
+- You consume these all the time with Xamarin Components/packages!\
 
 
 [0]:https://github.com/xamarin/XamarinComponents
@@ -172,4 +169,3 @@ Factory pattern and service location have their place, e.g. something like a plu
 [11]:https://hackmd.io/KzCGEYAYDMDYGYC0AOARpALIjz6ReqIgJwCm08sATMeBsBqkA===?both "edit"
 
 
-###### tags: `Partner Summit` `Presenters Notes`
