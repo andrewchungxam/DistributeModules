@@ -67,7 +67,7 @@ https://stackoverflow.com/questions/35979642/how-to-checkout-remote-git-tag/3597
 Helpful links:
 https://www.benday.com/2016/11/04/one-tfs-build-multiple-git-repositories-with-submodules/
 https://stackoverflow.com/questions/47618465/git-submodules-in-vsts-online
-
+https://github.com/blog/2104-working-with-submodules
 
 ## Distribution Approach: NuGet
 
