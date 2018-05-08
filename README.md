@@ -11,11 +11,11 @@ Notes from talk by @colbylwilliams and @NateRickard reposted here:
 - **Most common**
 - Example
 
-> **Pros:** [color=green]
+> **Pros:** 
 > - Simple
 > - Easy to change
 
-> **Cons:** [color=red]
+> **Cons:** 
 > - Only code **YOU** know
 > - Version?
 > - Permutations (defeating the purpose)
@@ -24,11 +24,11 @@ Notes from talk by @colbylwilliams and @NateRickard reposted here:
 
 ## Distribution Approach: Versioned/Tagged project/repo in source control
 
-> **Pros:** [color=green]
+> **Pros:** 
 > - Version (tags), and continue development
 > - Debug/Step through source
 
-> **Cons:** [color=red]
+> **Cons:** 
 > - Updating is manual
 > - Dependency issues
 > - **Onboarding**
@@ -40,11 +40,11 @@ https://stackoverflow.com/questions/35979642/how-to-checkout-remote-git-tag/3597
 
 ## Distribution Approach: Commit DLLs to source control
 
-> **Pros:** [color=green]
+> **Pros:** 
 > - Simple
 > - "Real" versioning
 
-> **Cons:** [color=red]
+> **Cons:** 
 > - Updating is manual
 > - Dependency issues
 
@@ -52,14 +52,14 @@ https://stackoverflow.com/questions/35979642/how-to-checkout-remote-git-tag/3597
 
 ## Distribution Approach: Git Submodules
 
-> **Pros:** [color=green]
+> **Pros:** 
 > - Simple, good for Shared projects
 > - **Third-party**
 > - "Versioning" commits 
 > - Continue to develop module 
 > - Debug/Step through module's source
 
-> **Cons:** [color=red]
+> **Cons:** 
 > - Clone is manual
 > - Updating is problematic 
 > - Versioning issues
@@ -76,12 +76,12 @@ https://github.com/blog/2104-working-with-submodules
     - Internal NuGet server(s) (TeamCity, etc.)
 
 
-> **Pros:** [color=green]
+> **Pros:** 
 > - Auto Dependency management
 > - Dependency chaining
 > - Multiple versions handled
 
-> **Cons:** [color=red]
+> **Cons:** 
 > - Additional work involved in packaging
     > Ideally in **CI system**
 > - NuGet server needed
